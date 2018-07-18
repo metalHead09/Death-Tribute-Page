@@ -1,0 +1,180 @@
+body {
+    background-color: #d3d3d3;
+}
+
+.container {
+    background-color: rgba(0,0,0,0.9);
+
+}
+
+.myNav {
+    background-color: rgba(0,0,0,1);
+    min-height: 100px;
+}
+
+.brandimg{
+    height: 130px;
+    width: 130px;
+}
+
+a.active
+{
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.nav-item {
+    width: fit-content;
+    margin: auto auto;
+}
+
+.nav-link {
+    color: rgba(255,255,255,.5);
+    font-family: 'IBM Plex Sans', sans-serif ;
+    font-size: 1.5rem;
+    border-bottom: .25rem solid transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-link .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #fff;
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.container {
+    color: #fff;
+    padding: 2rem;
+    padding-top: 0;
+}
+
+h3 {
+    font-family: 'Metal Mania',sans-serif;
+}
+
+h3.bandTitle {
+    font-size: 4em;
+    margin: 2rem 0;
+}
+
+h3.subText {
+     margin-top: 2rem;
+ }
+
+
+.myImg{
+    display: block;
+    margin: auto;
+    width: 100%;
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.deathMetalQuestion{
+    width: 100%;
+    text-align: left;
+    margin-top: 1.3rem;
+    color: black;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 2px;
+}
+
+#deathMetalDescription {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    padding: 0 2rem 1rem 2rem;
+}
+
+#deathMetalDescription + p {
+    margin-top: 2rem;
+}
+
+
+#dropDownIcon {
+    position: relative;
+    top: 2px;
+    float: right;
+    transition: transform 300ms linear;
+}
+
+
+.droppedDown {
+    transform: rotate(-180deg);
+}
+
+
+/*Slideshow styles*/
+
+.slideshow {
+    position: relative;
+    margin-top: 40px;
+}
+
+.slides {
+    display: none;
+}
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 3%;
+    border-radius: 3px 0 0 3px;
+}
+
+.previous:hover, .next:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+.slide-number {
+    color: #f2f2f2;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.album-heading {
+    margin: 15px;
+    display: none;
+}
+
+.review {
+    margin: 20px;
+    display: none;
+}
+
+#endline {
+    border: 2px solid white;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+/*'Archivo'*/
+
