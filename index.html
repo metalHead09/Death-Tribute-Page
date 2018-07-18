@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:min-height="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>First Project</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Metal+Mania" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">First Navbar</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav nav-pills ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Albums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Members</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> -->
+
+
+        <!--
+            TO DO: Create a navigation bar. Make it responsive. Use only the classes you need from bootstrap. Keep
+            the rest as simple as possible
+
+         -->
+
+
+
+        <nav class="myNav navbar navbar-expand-lg">
+            <img src="brandImage.jpg" class="navbar-brand img-fluid brandimg">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navigation">
+
+                <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#albums">Albums</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Members</a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <div class="container">
+
+        <img src="deathlogo.jpg" class="img-fluid myImg mx-auto">
+
+        <h3 class="text-center subText">Tribute Page for the Band</h3>
+        <h3 class="text-center bandTitle">DEATH</h3>
+
+        <p><strong>Death</strong> was a progressive/technical death metal band from Florida, founded in 1983, by Chuck Schuldiner.
+            It was one of the first ever death metal bands, but instead of sticking to the 'death metal' label, and unlike other bands who shared the same label, the band kept progressing, musically, with each release. Death released a total of 7 studio albums. But since all good things must come to an end, so did Death. In 2001, Chuck passed away, sadly, due to brain cancer, and the band ceased to exist.
+        </p>
+
+        <h3 class="normalHeading">About This Site</h3>
+
+        <p>This website, if a website it is at all, is both a practice project for me, and a tribute page for the band, Death. I am a great fan of metal music, and I love listening to the hundreds of genres that come under the umbrella term that is metal. Death is one of the greatest bands that ever existed. But it will be hard for you to believe. To be honest, you need quite a bit of experience to fully appreciate music like this. </p>
+
+        <p>To the uninitiated, all their music will just sound like noise (or maybe not, I should not assume). It's understandable. But, I also believe that when given a few <strong>proper</strong> listens, one can learn to appreciate the music that they initially perceive as... noise. You tend to understand it after a while. This page is just me telling you a little bit about the band, and explaining why you should give metal music a chance.</p>
+
+
+        <h3 class="normalHeading">Band Story</h3>
+
+        <p class="bandStory">Death was founded by Chuck Schuldiner in 1983 or '84 apparently, under the name 'Mantas'. Death, along with another band called 'Possessed', was the first ever death metal bands, or at least properly labeled and promoted as such. There certainly were other 'first ever death metal bands', and almost each of them has had some influence on bands that came after them, but Death stood the test of time. There was, and still is, an appeal to it that just isn't in their peers. That does not mean that others band were somehow 'lesser' than Death. Death was different, that's all. You can read more about the genre Death Metal in the exapandable bar below. </p>
+
+        <div class="deathMetalQuestion btn btn-lg" data-toggle="collapse" data-target="#deathMetalDescription" onclick="changeDisplay()"> What is 'Death Metal'?
+            <img src="drop-down-arrow.png" id="dropDownIcon">
+        </div>
+
+        <p class="collapse" id="deathMetalDescription">Death Metal is an extreme genre of metal music, which itself is an extreme form of rock music. 'Metal' is a broad term and contains a lot of sub-genres. Each sub-genre has certain attributes of its own. Death metal music makes use of distorted and down-tuned guitars, harsh vocals (screamed, growled, barked, etc.), hard and intense drumming which mostly makes use of blast beats, and several other techniques. What it all results in is "music" which sounds like destruction. Some bands can be melodic and <i>kinda</i> uplifting. Traditional death metal is mostly differentiated for the lyrical contents. The lyrics mostly deal with death, destruction, chaos, wars, Satanism, etc.<br><br>Think about it. You might not be able to hear the distortion right now, but from what it looks like, I think you are getting an idea that the music will sound anything but peaceful and calm. What appeals to most people, about death metal, is the intensity and the atmosphere. This type of music isn't supposed to be happy. It is provocative. Because of the somewhat unintelligible vocals, you cannot always make out what the vocalist is saying. (Singing is a term never used in this side of the world). But the music itself conveys all that you need to feel. Well, everyone feels something different, but it's supposed to make you angry and all cathartic. But ask any metalhead (yes, that's what we are called), and they will tell you how actually good this music makes them feel.</p>
+
+        <p>So what makes Death so special? Death comes off as a one man project, and it is. The band had a lot of lineup changes throughout. But what made the band so great were the musicians Chuck worked with. Today, all of the musicians that worked in Death are actually considered some of the best in what they do. Pick up any best guitarists/bassists/drummers list and you are sure to find someone who worked in Death in that list.</p>
+
+        <h3 id="albums">Albums</h3>
+
+        <p>Death released a total of seven studio albums during its career. Check out the slideshow below.</p>
+
+        <!-- SLIDESHOW-->
+
+        <div class="slideshow">
+
+            <div class="row">
+
+                <div class="col-lg-8">
+                    <div class="slides">
+                        <div class="slide-number">1 / 7</div>
+                        <img src="albums/Scream-Bloody-Gore.jpg" width="100%">
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide-number">2 / 7</div>
+                        <img src="albums/Leprosy.jpg" width="100%">
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide-number">3 / 7</div>
+                        <img src="albums/Spiritual-Healing.jpg" width="100%">
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide-number">4 / 7</div>
+                        <img src="albums/Human.jpg" width="100%">
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide-number">5 / 7</div>
+                        <img src="albums/Individual-Thought-Patterns.jpg" width="100%">
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide-number">6 / 7</div>
+                        <img src="albums/Symbolic.jpg" width="100%">
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide-number">7 / 7</div>
+                        <img src="albums/The-Sound-of-Perseverance.jpg" width="100%">
+                    </div>
+
+
+                    <a class="previous" onclick="incrementSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="incrementSlide(1)">&#10095;</a>
+
+                </div>
+                    
+                    <div class="col-lg-4">
+                        <div class="album-review-container">
+                            <h4 class="album-heading">1. Scream Bloody Gore (1987)</h4>
+                            <p class="review">Although Possessed's debut album 'Seven Churches' is considered to be the first death metal album ever, it's actually Death's Scream Bloody Gore that actually is the first <em>complete</em> death metal album. Seven Churches actually lies between thrash and death metal. Scream Bloody Gore is a seminal album, that has influenced almost every modern metal band. It's heavy, original, and consistent. Start to finish you get a solid dose of pure death metal. The lyrics are supposed to imitate horror movies, as has been the case with almost every death metal album.</p>
+                            <h4 class="album-heading">2. Leprosy (1988)</h4>
+                            <p class="review">The band started showcasing their technical side with their second outing, Leprosy. This album is heavier and far more intense than Scream Bloody Gore. Probably because this time, they totally left the thrash behind, and put the death in death metal. It's quite accessible too.</p>
+                            <h4 class="album-heading">3. Spiritual Healing (1990)</h4>
+                            <p class="review">For some reason, Spiritual Healing is considered their weakest album... but even their weakest album puts to shame most of the new bands. Spiritual Healing was, however, a turning point for Death. Lyrically, the album draws more from social aspects, rather than the earlier gore focused albums. Musically, the album focused more on the progressive part and less on the same old brutal death metal.</p>
+                            <h4 class="album-heading">4. Human (1991)</h4>
+                            <p class="review">Considered by most their best album, Human combined technicality and brutality. Musically, it's somewhere between Leprosy and Spiritual Healing. It's both melodic and heavy. All the lyrics contain some form of social commentary.</p>
+                            <h4 class="album-heading">5. Individual Thought Patterns</h4>
+                            <p class="review">After Human, it was expected that a band like Death would only seek to progress and get better and complex with each release... and that is what happened. From here on out, their music would become both, more melodic and more technical. However, the music also happened to be more and more accessible with better production, and brilliant guitar work. </p>
+                            <h4 class="album-heading">6. Symbolic</h4>
+                            <p class="review">Review</p>
+                            <h4 class="album-heading">7. The Sound of Perseverance</h4>
+                            <p class="review">Review</p>
+                        </div>
+
+                    </div>
+
+            </div>
+
+        </div>
+
+        <div id="endline"></div>
+
+        <footer class="footer">
+
+                <p><i>This page has nothing to do with the band officially, or unofficially. It's just a side project that sounded fun in the start but all the writing got boring, so I just kinda half-assed it all. A half-assed tribute to a band that deserves so much recognition.</i></p>
+            </footer>
+
+        
+    </div>
+
+
+    
+
+<script>
+
+    function changeDisplay() {
+        var p = document.getElementById('deathMetalDescription');
+        var d = document.getElementsByClassName('deathMetalQuestion');
+
+        $("#dropDownIcon").toggleClass("droppedDown");
+
+    }
+
+    var current_slide_index = 1;    //default slide index is 1... displaySlide function adds/subtracts in this variable
+    displaySlide(current_slide_index);
+    
+    function incrementSlide(i) {
+         current_slide_index += i;
+         displaySlide(current_slide_index);
+    }
+
+    function displaySlide(i) {
+        var slides = document.getElementsByClassName("slides");
+        var album_headings = document.getElementsByClassName("album-heading");
+        var review_paras = document.getElementsByClassName("review");
+        var n = slides.length;
+
+        if (current_slide_index > n) { current_slide_index = 1; }
+        if (current_slide_index < 1) { current_slide_index = n; }
+
+        for (s = 0; s < n; s++) {
+            slides[s].style.display = "none";
+            album_headings[s].style.display = "none";
+            review_paras[s].style.display = "none";
+        }
+
+        slides[current_slide_index-1].style.display = "block";
+        album_headings[current_slide_index-1].style.display = "block";
+        review_paras[current_slide_index-1].style.display = "block";
+
+
+    }
+
+
+</script>
+
+</body>
+</html>
